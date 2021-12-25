@@ -1,0 +1,141 @@
+.container{
+    width: 900px;
+    height: 1300px;
+    background-color: grey;
+    margin: 10px auto;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+
+.content{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    background-image: url(img/foto1.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+.link{
+    display: grid;
+    width: 600px; 
+    grid-template-columns: 0.8fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    padding:20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 22px;
+    margin-top: -10px;
+}
+
+.title{
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+.box{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.inner img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.h4{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+
+.p{
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.p,.h4{
+    position: absolute;
+}
+
+.img{
+    display: flex;
+    margin: auto;
+    color: white;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+/* awal about */
+.about,.komunitas{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.h3content,.pcontent,.pkomunitas,.h3komunitas{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.pcontent,.pkomunitas{
+    margin-top: 35px;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.h3content,.h3komunitas{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.images-content img{
+    width: 200px;
+    height: 250px;
+}
+
+.images-content,.images-komunitas{
+    width: 100%;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-komunitas img{
+    width: 200px;
+    height: 250px;
+}
+
+/* akhir abouit */
